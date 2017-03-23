@@ -1,0 +1,14 @@
+﻿@import 'variables';
+@import 'header';
+@import 'content';
+@import 'footer';
+
+
+body {
+ //   background-image: url('../img/tree.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}

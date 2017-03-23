@@ -1,0 +1,19 @@
+header {
+    
+}
+.logo {
+    background-image: url('../img/logo.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 400px;
+}
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.button {
+    background-color: $mainColor;
+    min-width: 110px;
+}
